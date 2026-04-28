@@ -26,13 +26,10 @@
 #include "configuration.cpp"
 
 // Include Libraries
-#include <Ticker.h>
-
 #include <MqttClient.h>
 #include <WiFiSecureClientProvider.h>
 
 #include <SimpleSoftTimer.h>
-#include <SimpleStateProcessor.h>
 
 using namespace HolisticSolutions;
 using namespace HolisticSolutions::WiFi;
