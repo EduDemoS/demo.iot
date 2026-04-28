@@ -20,6 +20,17 @@ In order to run this application execute the following steps:
    - Server
    - Port
 
+## Dashboard
+
+An example for a dashboard to be used with this demo can be found as [`iot_demo_base.json`](../../dashboards/iot_demo_base.json) in this repository. 
+
+To use this dashbaord
+
+1. Import the JSON file as ThingsBoard dashboard
+2. Enter edit mode
+3. For each widget, adjust the source device according to your configuration
+4. Save
+
 ## MQTT concept
 
 This project exposes multiple datapoints that can be used. Inputs and outputs are separated by their path:
