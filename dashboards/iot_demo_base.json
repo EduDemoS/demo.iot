@@ -494,10 +494,10 @@
               "lineHeight": "24px"
             },
             "labelColor": "rgba(0, 0, 0, 0.76)",
-            "showIcon": false,
+            "showIcon": true,
             "iconSize": 24,
             "iconSizeUnit": "px",
-            "icon": "mdi:lightbulb-outline",
+            "icon": "mdi:mirror-variant",
             "iconColor": "rgba(0, 0, 0, 0.76)",
             "switchColorOn": "var(--tb-primary-500)",
             "switchColorOff": "var(--tb-primary-100)",
