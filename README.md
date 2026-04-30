@@ -7,6 +7,7 @@ This repository contains all necessary files and is structured as follows:
 - [doc](doc) contains documentation such as
   - Guide to setup your own dashboard in ThingsBoard
   - A video showing three sunflowers connected across whole Europe
+- [dashboards](dashboards) contains example dashboards for ThingsBoard (see [description below](#using-the-example-dashboards)).
 - [code](code) contains program code to toy with the infrastructure
   - [Minimal IoT demonstrator](code/iot_minimal)
 
@@ -34,6 +35,15 @@ For EduDemoS, the infrastructure can be hosted at and provided by the GBS St. Ga
 In case you want to conduct your own workshop including the IoT parts, feel free to register your own workshop using the [respective contact form](https://www.gbssg.ch/edudemos-event.html).
 
 For the best experience, please outline which demonstrators you intend to build during your workshop and how many instances of the demonstrators you intend to build (i.e. how many teams you will run). This will allow for optimal preparation of your experience.
+
+## Using the example dashboards
+
+To use the example dashboards:
+
+1. Import the JSON file as ThingsBoard dashboard
+2. Enter edit mode
+3. For each widget, adjust the source device according to your configuration
+4. Save
 
 ## Licensing
 
