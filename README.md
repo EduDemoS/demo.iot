@@ -42,8 +42,10 @@ To use the example dashboards:
 
 1. Import the JSON file as ThingsBoard dashboard
 2. Enter edit mode
-3. For each widget, adjust the source device according to your configuration
-4. Save
+3. For each widget adjust:
+   - if the target device field is empty: Enter the appropriate target device.
+   - if the target device field is not empty, the dashboard features an [entity alias](https://thingsboard.io/docs/user-guide/ui/aliases/#single-entity) to reference the target device. In this case [edit the alias](https://thingsboard.io/docs/user-guide/ui/aliases/#creating-alias) to have it pointing towards the appropriate target device.
+4. Save the dashboard
 
 ## Licensing
 
